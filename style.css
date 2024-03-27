@@ -1,0 +1,51 @@
+/*style for body*/
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('SSmoothi.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+/*style for form*/
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/*style for form-group*/
+.form-group {
+  margin-bottom: 18px;
+}
+
+/*style for container*/
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+/*style for button*/
+.button {
+  padding: 14px 25px;
+  background-color: #f4430d;
+  color: #150303;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*style for title*/
+.title {
+  font-size: 32px;
+  color: #f21d1d;
+  margin-bottom: 20px;
+}
+
+/* Syle for output */
+.output {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0f0101;
+  background-color: rgb(240, 58, 18);
+}

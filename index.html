@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoothie Machine</title>
+  <!--LINKED WITH CSS-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Container for the all content --> 
+  <div class="container">
+    <!-- Title of the smoothie machine -->
+    <h1 class="title">Smoothie Machine</h1>
+    <form id="smoothie-form" class="form">
+
+      <!-- Division for selecting milk -->
+      <div class="form-group">
+        <label for="milk">Select milk:</label>
+        <select id="milk" name="milk" class="select">
+          <option value="Coconut">Coconut Milk</option>
+          <option value="Raw">Raw Milk</option>
+          <option value="Almond">Almond Milk</option>
+        </select>
+      </div>
+
+      <!-- Division for selecting fruits -->
+      <div class="form-group">
+        <label for="fruit">Select fruit:</label>
+        <select id="fruit" name="fruit" class="select">
+          <option value="Banana">Banana</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="Mango">Mango</option>
+        </select>
+      </div>
+
+      <!-- Division for selecting sweetener -->
+      <div class="form-group">
+        <label for="sweetener">Select sweetener:</label>
+        <select id="sweetener" name="sweetener" class="select">
+          <option value="honey">Honey</option>
+          <option value="sugar">Sugar</option>
+          <option value="stevia">Stevia</option>
+        </select>
+      </div>
+
+      <!-- Division for selecting powders -->
+      <div class="form-group">
+        <label for="powders">Select powders:</label>
+        <select id="powders" name="powders" class="select">
+          <option value="hemp">Hemp</option>
+          <option value="spirulina">Spirulina</option>
+          <option value="Maca">Maca</option>
+        </select>
+      </div>
+      
+      <!-- Division for selecting ice cube -->
+      <div class="form-group">
+        <label for="ice">Include ice:</label>
+        <input type="checkbox" id="ice" name="ice" class="checkbox">
+      </div>
+
+      <!--BUTTON TO SUBMIT ORDER-->
+      <button type="submit" class="button">Order</button>
+    </form>
+
+    <div id="smoothie-output" class="output"></div>
+  </div>
+  <!--linked with JS-->
+  <script src="script.js"></script>
+</body>
+</html>
